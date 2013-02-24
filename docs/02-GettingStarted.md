@@ -112,7 +112,7 @@ Give it a try!
 
 ## Modules and Helpers
 
-The actions in Guy classes are taken from modules. With the `build` command described above, Codeception emulates multiple inheritance. Modules are designed to have one action performed with one method. According to the DRY principle, if you use the same scenario components in different modules, you can combine them and move them to a custom module. By default each suite has an empty module, which can extend Guy classes. They are stored in the `helpers` directory.
+The actions in Guy classes are taken from modules. With the `build` command described above, Codeception emulates multiple inheritance. Modules are designed to have one action performed with one method. According to the DRY principle, if you use the same scenario components in different modules, you can combine them and move them to a custom module. By default each suite has an empty module, which can extend Guy classes. They are stored in the `_helpers` directory.
 
 ## Bootstrap
 
